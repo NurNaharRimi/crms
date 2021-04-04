@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Backend\StaffController;
 
+use App\Http\Controllers\Backend\DriverController;
+use App\Http\Controllers\Backend\CarController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +19,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//staff
+Route::get("/staff",[StaffController::class,'staffFrom'])->name('staff.from');
+//driver
+Route::get("/driver",[DriverController::class,'driverFrom'])->name('driver.from');
+//car
+Route::get("/Car",[CarController::class,'carFrom'])->name('car.from');
