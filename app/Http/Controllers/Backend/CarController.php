@@ -9,6 +9,10 @@ class CarController extends Controller
 {
     public function carFrom()
     {
+        return view('backend.layouts.car.carfrom');
+    }
+    public function carlist()
+    {
         return view('backend.layouts.car.car');
     }
 }

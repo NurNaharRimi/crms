@@ -9,6 +9,9 @@ class DriverController extends Controller
 {
     public function driverFrom()
     {
-        return view('backend.layouts.driver.driver');
+        return view('backend.layouts.driver.driverfrom');
+    }
+    public function driverlist(){
+        return view('backend.layouts.staff.staff');
     }
 }

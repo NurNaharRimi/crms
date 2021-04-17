@@ -26,19 +26,19 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="{{route('staff.from')}}">
+                    <a href="{{route('staff.list')}}">
                         <i class="fas fa-chart-bar"></i>Staff</a>
                 </li>
                 <li>
-                    <a href="{{route('driver.from')}}">
+                    <a href="{{route('driver.list')}}">
                         <i class="fas fa-table"></i>Driver</a>
                 </li>
                 <li>
-                    <a href="{{route('car.from')}}">
+                    <a href="{{route('car.list')}}">
                         <i class="far fa-check-square"></i>Car</a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{route('categorie.list')}}">
                         <i class="fas fa-calendar-alt"></i>Categorie</a>
                 </li>
                 <li>
@@ -46,7 +46,7 @@
                         <i class="fas fa-map-marker-alt"></i>payment</a>
                 </li>
                 <li>
-                    <a href="map.html">
+                    <a href="{{route('booking.list')}}">
                         <i class="fas fa-map-marker-alt"></i>Booking</a>
                 </li>
 

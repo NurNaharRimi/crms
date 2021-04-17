@@ -1,14 +1,8 @@
 @extends('welcome')
 @section('crms')
-
-
-
-
-
-
-
-
-    <h1>hello rimi</h1>
+    <center><a href="{{route('staff.from')}}"><button type="button" class="btn btn-primary align-content-center">
+                CREATE STAFF
+            </button></a></center><br>
 
 
 
