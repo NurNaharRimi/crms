@@ -11,7 +11,7 @@ class CategorieController extends Controller
     public function categorieFrom(){
         return view('backend.layouts.categorie.categoriefrom');
     }
-    public function bookinglist(){
+    public function categorielist(){
         return view('backend.layouts.categorie.categorie');
     }
 }

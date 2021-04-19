@@ -8,21 +8,10 @@
         <nav class="navbar-sidebar">
             <ul class="list-unstyled navbar__list">
                 <li class="active has-sub">
-                    <a class="js-arrow" href="#">
+                    <a href="{{route('admin.list')}}">
                         <i class="fas fa-tachometer-alt"></i>Admin</a>
                     <ul class="list-unstyled navbar__sub-list js-sub-list">
-                        <li>
-                            <a href="index.html">Dashboard 1</a>
-                        </li>
-                        <li>
-                            <a href="index2.html">Dashboard 2</a>
-                        </li>
-                        <li>
-                            <a href="index3.html">Dashboard 3</a>
-                        </li>
-                        <li>
-                            <a href="index4.html">Dashboard 4</a>
-                        </li>
+
                     </ul>
                 </li>
                 <li>
@@ -48,6 +37,10 @@
                 <li>
                     <a href="{{route('booking.list')}}">
                         <i class="fas fa-map-marker-alt"></i>Booking</a>
+                </li>
+                <li>
+                    <a href="{{route('customer.list')}}">
+                        <i class="fas fa-map-marker-alt"></i>Customer</a>
                 </li>
 
 
