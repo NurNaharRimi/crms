@@ -17,6 +17,7 @@
                 <li>
                     <a href="{{route('staff.list')}}">
                         <i class="fas fa-chart-bar"></i>Staff</a>
+
                 </li>
                 <li>
                     <a href="{{route('driver.list')}}">

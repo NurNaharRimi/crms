@@ -12,7 +12,9 @@ class AdminController extends Controller
         return view('backend.layouts.admin.adminfrom');
     }
     public function adminlist(){
-        return view('backend.layouts.admin.admin');
+        $adminlist = Admin::all();
+        $title = "Admin List";
+        return view('backend.layouts.admin.adminlist',compact('adminlist','title'));
     }
 
     public function admincreate(Request $request){
@@ -22,6 +24,7 @@ class AdminController extends Controller
             'Email'=>$request->admin_email,
             'Contact'=>$request->admin_contact,
             'Address'=>$request->admin_address,
+
 
         ]);
 
